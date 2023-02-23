@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-plotly",
+  "version": "1.0.0",
+  "description": "Demo of how to use Plotly in Node.JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLAbram/nodejs-plotly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MLAbram/nodejs-plotly/issues"
+  },
+  "homepage": "https://github.com/MLAbram/nodejs-plotly#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0",
+    "plotly": "^1.0.6"
+  }
+}
