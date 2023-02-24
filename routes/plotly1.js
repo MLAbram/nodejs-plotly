@@ -3,7 +3,7 @@ const app = express();
 
 require('dotenv').config();
 
-const plotly = require('plotly')(process.env.USERNAME, process.env.APIKEY)
+const plotly = require('plotly')(process.env.USERNAME, process.env.APIKEY);
 
 app.get('/', (req, res) => {
     const data = [{x:[0,1,2], y:[3,2,1], type: 'bar'}];
